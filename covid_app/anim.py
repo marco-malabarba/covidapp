@@ -54,9 +54,9 @@ def print_variaz_perc(x):
 	
 #https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson
 	
-with open('regioni.json') as json_file:
+with open('files/regioni.json') as json_file:
     regioni = json.load(json_file)
-with open('province.json') as json_file:
+with open('files/province.json') as json_file:
     province = json.load(json_file)    
 
 
